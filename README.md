@@ -20,10 +20,6 @@ me = PythonDeveloper()
 me.say_hi()
 ```
 
-<p align="center">
- <img width="600" src="assets/github-snake.svg" alt="snake"/>
-</p>
-
 Diligent, cooperative, and results-driven, I am passionate about coding and constantly strive to learn new methods and approaches that accelerate and simplify the development process while bringing beauty to the code. As a self-professed perfectionist, I take pride in writing clean and concise code. Additionally, I have experience as a mentor, assisting newcomers in solving problems during our course. <br/>
 
 Prior to my transition into software development, I worked as a professional translator and localization engineer for over 15 years. This extensive linguistic background, coupled with more than 23 years of language practice, gives me a unique perspective in the field. Seeking interesting projects and complex tasks, I decided to pursue a career in software development. <br/>
