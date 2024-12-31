@@ -47,35 +47,6 @@ Contacts: [![HH Badge](https://img.shields.io/badge/-hh.ru-critical?style=flat&&
 
 ---
 
-### 💻 Technology Stack :
-
-<div>
-    <img src="./assets/icons/python-icon.svg" title="python" alt="python" width="40" height="40"/>&nbsp
-    <img src="./assets/icons/png-transparent-django-web-development-web-framework-python-software-framework-django-text-trademark-logo-thumbnail.png" title="django" alt="django" width="40" height="40"/>&nbsp
-    <img src="./assets/icons/png-transparent-flask-representational-state-transfer-application-programming-interface-web-framework-python-schlenk-flask-white-monochrome-black-thumbnail.png" title="flask" alt="flask" width="40" height="40"/>&nbsp
-    <img src="./assets/icons/MySQL-Light.svg" title="sql" alt="sql" width="40" height="40"/>&nbsp
-    <img src="./assets/icons/Git.svg" title="git" alt="git" width="40" height="40"/>&nbsp
-    <img src="./assets/icons/HTML.svg" title="html5" alt="html5" width="40" height="40"/>&nbsp
-    <img src="./assets/icons/CSS.svg" title="css" alt="css" width="40" height="40"/>&nbsp
-</div>
-
----
-
-### 🛠 Instruments and tools:
-
-<div>
-    <img src="./assets/icons/Github-Dark.svg" title="github" alt="github" width="40" height="40"/>&nbsp;
-    <img src="./assets/icons/gitlab-icon.svg" title="gitlab" alt="gitlab" width="40" height="40"/>&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/PyCharm_Icon.svg" title="pycharm" alt="pycharm" width="40" height="40"/>&nbsp;
-    <img src="./assets/icons/Figma-Light.svg" title="figma" alt="figma" width="40" height="40"/>&nbsp;
-    <img src="./assets/icons/VSCode-Dark.svg" title="vscode" alt="vscode" width="40" height="40"/>
-    <img src="./assets/icons/mysqlworkbench_93532.svg" title="mysql-workbench" alt="mysql-workbench" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="postman" alt="postman" width="40" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg" title="Notion" alt="Notion" width="40" height="40"/>&nbsp;
-</div>
-
----
-
 ### 💻 Codewars:
 
 ![codewars](https://www.codewars.com/users/djalan84/badges/large)
