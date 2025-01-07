@@ -14,3 +14,4 @@ class ProductPageLocators():
     BOOK_PRICE = (By.XPATH, '//p[@class="price_color"]')
     ADDED_BOOK_NAME = (By.XPATH, '//div[@id="messages"]//div[@class="alert alert-safe alert-noicon alert-success  fade in"][1]//strong')
     ADDED_BOOK_PRICE = (By.XPATH, '//div[@id="messages"]//div[@class="alert alert-safe alert-noicon alert-info  fade in"]//strong')
+    BOOK_ADDED_TO_CART_BLOCK = (By.XPATH, '//div[@class="alert alert-safe alert-noicon alert-info  fade in"]')
