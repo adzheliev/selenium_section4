@@ -20,6 +20,5 @@ class ProductPage(BasePage):
     def should_not_be_success_message(self):
         assert self.is_not_element_present(*ProductPageLocators.BOOK_ADDED_TO_CART_BLOCK), "Book shoud not be already added to cart"
 
-
     def is_disappeared_message(self):
         assert self.is_disappeared(*ProductPageLocators.BOOK_ADDED_TO_CART_BLOCK), "There is a succcess message"

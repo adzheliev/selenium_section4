@@ -16,6 +16,10 @@ class BasePage():
     
     def open(self):
         self.browser.get(self.url)
+    
+    def go_to_cart_page(self):
+        link = self.browser.find_element(*BasePageLocators.CART_BUTTON)
+        link.click()
 
     def go_to_login_page(self):
         link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
