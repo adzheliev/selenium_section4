@@ -4,10 +4,12 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
+
 def pytest_addoption(parser):
     parser.addoption(
         "--language", action="store", default="en", help="Choose language: e.g., 'en', 'fr', 'es'"
     )
+
 
 @pytest.fixture(scope="function")
 def browser(request):
