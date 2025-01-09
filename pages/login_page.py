@@ -12,7 +12,6 @@ class LoginPage(BasePage):
         # реализуйте проверку на корректный url адрес
         assert "login" in self.browser.current_url, "It is not login and register page"
 
-
     def should_be_login_form(self):
         # реализуйте проверку, что есть форма логина
         assert self.is_element_present(*LoginPageLocators.LOGIN_FORM), "Login form is not presented"
@@ -20,3 +19,14 @@ class LoginPage(BasePage):
     def should_be_register_form(self):
         # реализуйте проверку, что есть форма регистрации на странице
         assert self.is_element_present(*LoginPageLocators.REGISTER_FORM), "Register form is not presented"
+
+    def register_new_user(self, email, password):
+        email_field = self.browser.find_element(*LoginPageLocators.USER_REGISTRATION_EMAIL)
+        email_field.send_keys(email)
+        password_field = self.browser.find_element(*LoginPageLocators.USER_REGISTRATION_PASSWORD)
+        password_confirmation_field = self.browser.find_element(*LoginPageLocators.USER_REGISTRATION_PASSWORD_CONFIRMATION)
+        password_field.send_keys(password)
+        password_confirmation_field.send_keys(password)
+        registration_button = self.browser.find_element(*LoginPageLocators.USER_REGISTRATION_BUTTON)
+        registration_button.click()
+        
